@@ -1,0 +1,61 @@
+header{
+	background: #555;
+	display: inline-block;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.color{
+	text-align: center;
+	display: inline;
+	float: right;
+	width: 20px;
+	height: 20px;
+	border: 1px black solid;
+}
+
+.color:hover{
+	cursor: pointer;
+}
+
+#yellow{
+	background: yellow;
+	color: #00ffff;
+}
+
+#blue{
+	background: blue;
+	color: #00ff00;
+}
+
+#red{
+	background: red;
+	color: #660066;
+}
+
+#green{
+	background: green;
+	color: #ff3399;
+}
+
+#slider{
+	height: 400px;
+	width: 720px;
+	overflow: hidden;
+}
+
+#slider .slides{
+	display: block;
+	width: 6000px;
+	height: 400px;
+	margin: 0;
+	padding: 0;
+}
+
+#slider .slide{
+	float: left;
+	list-style-type: none;
+	height: 400px;
+	width: 720px;
+}
